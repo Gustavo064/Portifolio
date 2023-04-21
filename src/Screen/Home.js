@@ -19,11 +19,9 @@ const Home = ({ calcYear, message }) => {
             <BackgroundParticle />
             <div className='div-text'>
                 <text className='text title'>{message} ! <br /> eu sou o Gustavo</text>
-                <text className='text'>
-                    Vou falar um pouco sobre mim e sobre minha pespctiva de carreira. Eu tenho  {calcYear()} anos e comecei minha jornada na programação aos 17 anos com um curso de html bem básico.
-                    Porem foi o bastante para mim se apaixonar pela área e toda sua lógica por traz. Após me formar no ensino medio resolvi iniciar faculdade de Ciência da Computação, para me especializar na area da melhor forma.<br /><br />
-                    Foi no ano da pandemia em 2020 que iniciei, com a maioria das empresas de programação virando Home Office iniciei um estágio na empresa Laev. Dessa forma, entrei mais afundo no mundo da programação, com javascript, implementações em react js e react native.
-                    Onde aprendi muita coisa e trabalhando em vários projetos, após dois anos de estágio fui contratado como dev Jr e continuo na minha jornada em busca de evolução!
+                <text class='text'>
+                    Vou falar um pouco sobre mim e sobre minha perspectiva de carreira. Eu tenho {calcYear()} anos e comecei minha jornada na programação aos 17 anos com um curso básico de HTML. Porém, foi o suficiente para me apaixonar pela área e toda a lógica por trás dela. Após me formar no ensino médio, decidi iniciar a faculdade de Ciência da Computação para me especializar na área da melhor forma.<br /><br />
+                    Foi no ano da pandemia em 2020 que iniciei um estágio na empresa Laev, já que a maioria das empresas de programação estava em Home Office. Dessa forma, mergulhei ainda mais fundo no mundo da programação, aprendendo sobre JavaScript, implementações em React.js e React Native. Trabalhei em vários projetos e aprendi muitas coisas. Após dois anos de estágio, fui contratado como desenvolvedor júnior e continuo na minha jornada em busca de evolução!
                 </text>
             </div>
             <div className='div-network'>
@@ -42,5 +40,5 @@ export default Home;
 const arrayIcon = [
     { id: 0, icon: <BsInstagram className='icon' />, site: "https://www.instagram.com/medeiros__gu/" },
     { id: 1, icon: <BsLinkedin className='icon' />, site: "https://www.linkedin.com/in/gustavo-medeiros-963bb9206/" },
-    { id: 2, icon: <BsGithub className='icon' />, site: "https://github.com/settings/profile" }
+    { id: 2, icon: <BsGithub className='icon' />, site: "https://github.com/Gustavo064" }
 ]
